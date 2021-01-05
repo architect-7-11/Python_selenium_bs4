@@ -44,8 +44,6 @@ class cekilisYap():
         self.browser.get(self.hedef_url)
         time.sleep(3)
         
-
-
         post = self.browser.find_element_by_xpath("/html/body/div[1]/section/main/div/div[3]/article/div[1]/div/div[1]/div[1]").click()
         time.sleep(2)
         adet = 0
