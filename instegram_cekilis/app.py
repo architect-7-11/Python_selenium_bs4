@@ -1,8 +1,6 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
 import random
@@ -91,9 +89,9 @@ class cekilisYap():
 
 
 
-hedef_url = "https://www.instagram.com/prof_demirtas/?hl=tr"
+hedef_url = "https://www.instagram.com/<<profil ismi>>/?hl=tr"
 
-get = cekilisYap(hedef_url,3,"hocam")
+get = cekilisYap(hedef_url,3,<<hedef kelime>>)
 get()
 
 
