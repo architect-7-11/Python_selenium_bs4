@@ -6,6 +6,16 @@ import re
 import random
 from kullanıcı_bilgileri import bilgiler
 
+"""
+hedef ismini giriniz
+
+kullanıcının son gönderisindeki yorumlar üzerinden işlem yapar
+
+
+"""
+
+
+
 
 
 class cekilisYap():
